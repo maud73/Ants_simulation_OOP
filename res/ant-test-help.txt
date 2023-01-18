@@ -1,0 +1,20 @@
+--------- AntTest ----------
+
+----------- help -----------
+"CP" -> Cursor position
+
+Entity debug information:
+red     : health (HP)
+black   : carried food
+magenta : anthill Id
+----------------------------
+MW     : zoom
+D      : toggle debug mode
+R      : reset simulation
+C      : reload configuration
+Esc    : close window
+Space  : pause
+Arrows : move
+W : add Worker at CP
+S : add Soldier at CP
+

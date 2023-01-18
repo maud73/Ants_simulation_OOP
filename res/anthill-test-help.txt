@@ -1,0 +1,24 @@
+---------------------------
+	 AnthillTest
+preferably run with	 
+food generator delay 1e07
+----------- help -----------
+"LC" -> left mouse clic
+"CP" -> Cursor position
+"MW" -> Mouse wheel
+Entity debug information:
+red     : health (HP)
+black   : carried food
+magenta : anthill Id
+----------------------------
+MW     : zoom
+D      : toggle debug mode
+R      : reset simulation
+C      : reload configuration
+Esc    : close window
+Space  : pause
+Arrows : move
+LC : add Food at CP
+H  : add antHill at CP
+P  : toggle pheromone display
+

@@ -1,0 +1,102 @@
+{
+    "debug" : false,
+    "display probabilities" : false,
+    "simulation":{
+      "time":{
+         "factor": 1,
+         "max dt":0.05,
+	  "fixed step" : 0.01
+      },
+	"background" : "ground3.png",
+	"debug background" : "sand.png",
+	"size"       : 800
+    },
+    "environment": {
+        "beta_d"  : 1.0,
+         "q_zero" : 5.0,
+        "alpha"  : 5,
+	"temperature initial" : 20,
+	"temperature delta" : 1,
+	"temperature min"   : -20,
+	"temperature max"   : 45
+    },
+    "food" : {
+        "generator" : {
+            "delta" : 2
+        },
+       "min qty" : 10.0,
+       "max qty" : 40.0,
+       "texture" : "food.png"
+    },
+    "map" : "map.json",
+    "pheromone" : {
+        "treshold"         : 1,
+        "evaporation rate" : 1,
+	"test density"     : 1,
+	"temperature threshold" : 30
+    },
+    "anthill" : {
+        "spawn delay" : 2.0,
+	"default worker prob" : 0.7,
+	"texture"     : "anthill.png"
+    },
+    "animal" : {
+	"default speed" : 100.0,
+	"default lifespan" : 1e7,
+        "next rotation delay" : 0.05,
+	"sight distance" : 20,
+	"default texture" : "green_ant.png"
+    },
+    "ant" : {
+	"speed"  : 100.0,
+        "attack" : {
+            "delay" : 0.5
+        },
+	"smell" : {
+            "distance" : 20.0
+        },
+	"pheromone" : {
+            "density" : 0.09,
+	    "energy"  : 5.0
+        },
+	"max food" : 10.0,
+	"max perception distance" : 30.0,
+	"radius" : 25.0,
+	"worker" : {
+	    "hp" : 1,
+	    "lifespan" : 50,
+	    "strength" : 0,
+	    "texture"  : "black_ant2.png"
+	},
+	"soldier" : {
+	    "hp" : 10,
+	    "lifespan" : 50,
+	    "strength" : 4,
+	    "texture"  : "red_ant2.png"
+	}
+    },
+    "termite" : {
+	"texture"      : "termite2.png",
+	"hp"           : 7,
+	"lifespan"     : 30,
+	"strength"     : 3,
+	"speed"        : 120.0,
+	"attack delay" : 0.6
+    },
+    "stats" : {
+        "refresh rate" : 1
+    },
+    "window" : {
+        "antialiasing level" : 4,
+        "title" : "INFOSV Simulation",
+        "simulation" : {
+	    "width":500,
+            "height":500
+         },
+        "stats" : { "width" : 200 }
+    },
+    "world" : {
+        "size" : 1000,
+	"map name" : "map1.map"
+    }
+}

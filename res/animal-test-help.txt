@@ -1,0 +1,14 @@
+----------------------------
+	AnimalTest
+----------- help -----------
+"CP" : Cursor position
+"MW" : Mouse wheel
+----------------------------
+MW     : zoom
+D      : toggle debug mode
+R      : reset simulation
+C      : reload configuration
+Space  : pause
+Arrows : move
+A: add Animal at CP
+

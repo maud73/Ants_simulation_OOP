@@ -1,0 +1,28 @@
+#anthill posX posY
+anthill 200 350 
+anthill 500 250 
+anthill 450 600
+
+#food posX posY quantity
+
+food 145 30 50
+food 244 130 20
+food 345 229 20
+food 446 330 20
+food 545 431 20
+
+food 50 235 50
+food 149 435 20
+food 50 334 20
+food 51 135 20
+
+
+#termite posX posY
+termite 130 40
+termite 231 140
+termite 332 240
+termite 433 340
+termite 50 380
+termite 50 440
+termite 250 540
+

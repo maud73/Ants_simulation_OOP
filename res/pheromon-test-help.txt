@@ -1,0 +1,22 @@
+----------------------------
+    	pheromonTest
+----------- help -----------
+"RC" : mouse right-clic
+"MW" : mouse wheel
+----------------------------
+MW     : zoom
+D      : toggle debug mode
+R      : reset simulation
+C      : reload configuration
+Esc    : close window
+Space  : pause
+Arrows : move
+Return : toggle
+         "live mode"
+S : single update
+RC: set begin and
+end of pheromon path
+P : toggle pheromon
+           display
+Q : toggle proba.
+           display	   

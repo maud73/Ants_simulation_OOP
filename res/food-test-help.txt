@@ -1,0 +1,18 @@
+----------------------------
+	FoodTest
+----------- help -----------
+"LC" : Left mouse clic
+"CP" : Cursor position
+"MW" " Mouse wheel
+----------------------------
+MW     : zoom
+D      : toggle debug mode
+R      : reset simulation
+C      : reload configuration
+Space  : pause
+Arrows : move
+LC : add Food at CP
+
+T      : take 15 from 
+quantity of last added
+Food

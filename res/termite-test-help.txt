@@ -1,0 +1,27 @@
+------TermiteTest ----------
+preferably run with
+food generator delay 1e07
+----------- help -----------
+"CP" -> Cursor position
+"MW" -> Mouse wheel
+Entity debug information:
+red     : health (HP)
+black   : carried food
+magenta : anthill Id
+----------------------------
+Space	: toggle pause
+D	: toggle debug mode
+R	: resets simulation
+P       : toggle pheromone
+          display
+MW	: Zoom
+Esc	: close window
+C	: refresh config
+Arrows	: move simulation
+	view
+Tab	: switch to next
+	control
+T : add termite at CP
+H : add anthill at CP
+W : add worker at CP
+S : add soldier at CP
